@@ -1,0 +1,2 @@
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclientContent\obj\x86\Debug\DBclientContent.contentprojResolveAssemblyReference.cache
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclientContent\obj\x86\Debug\DBclientContent.contentprojResolveAssemblyReference.cache

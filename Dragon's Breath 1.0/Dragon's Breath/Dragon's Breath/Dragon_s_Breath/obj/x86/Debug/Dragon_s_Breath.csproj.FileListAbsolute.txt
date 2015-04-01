@@ -1,0 +1,14 @@
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Effects\Terrain.xnb
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\grass.xnb
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\hmap512.xnb
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\rocks.xnb
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\rocktex.xnb
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Dragon_s_Breath.exe
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Dragon_s_Breath.pdb
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.csprojResolveAssemblyReference.cache
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.exe
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.pdb
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.Launcher.resources
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.csproj.GenerateResource.Cache
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\ball.xnb
