@@ -1,0 +1,14 @@
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\thing.xnb
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\_3D_try.exe
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\_3D_try.pdb
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_try\obj\x86\Debug\_3D_try.csprojResolveAssemblyReference.cache
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_try\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_try\obj\x86\Debug\_3D_try.exe
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_try\obj\x86\Debug\_3D_try.pdb
+C:\Users\Joanna\Documents\Visual Studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\ball.xnb
+C:\Users\Joanna\Documents\Visual Studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\thing2.xnb
+C:\Users\Joanna\Documents\Visual Studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\PG.xnb
+C:\Users\Joanna\Documents\Visual Studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\Big_Dragon.xnb
+C:\Users\Joanna\Documents\Visual Studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_Mask_0.xnb
+C:\Users\Joanna\Documents\Visual Studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Head_D_0.xnb
+C:\Users\Joanna\Documents\Visual Studio 2013\Projects\3D try\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_D_0.xnb

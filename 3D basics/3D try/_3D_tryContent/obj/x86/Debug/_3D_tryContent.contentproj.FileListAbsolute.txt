@@ -1,0 +1,5 @@
+c:\users\joanna\documents\visual studio 2013\Projects\3D try\3D try\_3D_tryContent\obj\x86\Debug\_3D_tryContent.contentprojResolveAssemblyReference.cache
+H:\3D try\3D try\_3D_tryContent\obj\x86\Debug\_3D_tryContent.contentprojResolveAssemblyReference.cache
+H:\3D basics\3D basics\_3D_tryContent\obj\x86\Debug\_3D_tryContent.contentprojResolveAssemblyReference.cache
+F:\3D basics\3D try\_3D_tryContent\obj\x86\Debug\_3D_tryContent.contentprojResolveAssemblyReference.cache
+H:\3D basics\3D try\_3D_tryContent\obj\x86\Debug\_3D_tryContent.contentprojResolveAssemblyReference.cache

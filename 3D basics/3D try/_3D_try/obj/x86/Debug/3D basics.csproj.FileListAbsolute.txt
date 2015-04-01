@@ -1,0 +1,56 @@
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\thing.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\ball.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\thing2.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\PG.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\Big_Dragon.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_Mask_0.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Head_D_0.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_D_0.xnb
+H:\3D try\3D try\_3D_try\bin\x86\Debug\_3D_try.exe
+H:\3D try\3D try\_3D_try\bin\x86\Debug\_3D_try.pdb
+H:\3D try\3D try\_3D_try\obj\x86\Debug\3D basics.csprojResolveAssemblyReference.cache
+H:\3D try\3D try\_3D_try\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\3D try\3D try\_3D_try\obj\x86\Debug\_3D_try.exe
+H:\3D try\3D try\_3D_try\obj\x86\Debug\_3D_try.pdb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\thing.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\ball.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\thing2.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\PG.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\Big_Dragon.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_Mask_0.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\T_Dragon_Head_D_0.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_D_0.xnb
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\_3D_try.exe
+H:\3D basics\3D basics\_3D_try\bin\x86\Debug\_3D_try.pdb
+H:\3D basics\3D basics\_3D_try\obj\x86\Debug\3D basics.csprojResolveAssemblyReference.cache
+H:\3D basics\3D basics\_3D_try\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\3D basics\3D basics\_3D_try\obj\x86\Debug\_3D_try.exe
+H:\3D basics\3D basics\_3D_try\obj\x86\Debug\_3D_try.pdb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\thing.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\ball.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\thing2.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\PG.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\Big_Dragon.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_Mask_0.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Head_D_0.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_D_0.xnb
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\_3D_try.exe
+F:\3D basics\3D try\_3D_try\bin\x86\Debug\_3D_try.pdb
+F:\3D basics\3D try\_3D_try\obj\x86\Debug\3D basics.csprojResolveAssemblyReference.cache
+F:\3D basics\3D try\_3D_try\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\3D basics\3D try\_3D_try\obj\x86\Debug\_3D_try.exe
+F:\3D basics\3D try\_3D_try\obj\x86\Debug\_3D_try.pdb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\thing.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\ball.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\thing2.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\PG.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\Big_Dragon.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_Mask_0.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Head_D_0.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_D_0.xnb
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\_3D_try.exe
+H:\3D basics\3D try\_3D_try\bin\x86\Debug\_3D_try.pdb
+H:\3D basics\3D try\_3D_try\obj\x86\Debug\3D basics.csprojResolveAssemblyReference.cache
+H:\3D basics\3D try\_3D_try\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\3D basics\3D try\_3D_try\obj\x86\Debug\_3D_try.exe
+H:\3D basics\3D try\_3D_try\obj\x86\Debug\_3D_try.pdb

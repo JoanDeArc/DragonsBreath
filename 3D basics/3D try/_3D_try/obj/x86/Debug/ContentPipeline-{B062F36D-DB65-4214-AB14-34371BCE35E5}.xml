@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>thing.fbx</Source>
+      <Name>thing</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">-90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\thing.xnb</Output>
+      <Time>2015-01-20T14:55:46+01:00</Time>
+      <Dependency>
+        <Key>H:\3D basics\3D try\_3D_try\obj\x86\Debug\thing_0.xml</Key>
+        <Value>2015-03-04T03:02:26+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>ball.fbx</Source>
+      <Name>ball</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\ball.xnb</Output>
+      <Time>2015-01-20T16:10:18+01:00</Time>
+      <Dependency>
+        <Key>H:\3D basics\3D try\_3D_try\obj\x86\Debug\ball_0.xml</Key>
+        <Value>2015-03-04T03:02:30+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>thing2.fbx</Source>
+      <Name>thing2</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">-90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\thing2.xnb</Output>
+      <Time>2015-01-20T20:03:34+01:00</Time>
+      <Dependency>
+        <Key>H:\3D basics\3D try\_3D_try\obj\x86\Debug\thing2_0.xml</Key>
+        <Value>2015-03-04T03:02:32+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>PG.FBX</Source>
+      <Name>PG</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">-90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\PG.xnb</Output>
+      <Time>2015-01-21T19:27:14+01:00</Time>
+      <Dependency>
+        <Key>H:\3D basics\3D try\_3D_try\obj\x86\Debug\PG_0.xml</Key>
+        <Value>2015-03-04T03:02:32+01:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>Big_Dragon.fbx</Source>
+      <Name>Big_Dragon</Name>
+      <Importer>FbxImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Parameters>
+        <Data Key="RotationX">-90</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\Big_Dragon.xnb</Output>
+      <Time>2015-01-21T19:34:02+01:00</Time>
+      <Dependency>
+        <Key>H:\3D basics\3D try\_3D_try\obj\x86\Debug\Big_Dragon_0.xml</Key>
+        <Value>2015-03-04T03:02:42+01:00</Value>
+      </Dependency>
+      <Request>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_Mask_0.xnb</Request>
+      <Request>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Head_D_0.xnb</Request>
+      <Request>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_D_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>thing.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>H:\3D basics\3D try\_3D_try\obj\x86\Debug\thing_0.xml</Output>
+      <Time>2015-01-20T14:55:46+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ball.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>H:\3D basics\3D try\_3D_try\obj\x86\Debug\ball_0.xml</Output>
+      <Time>2015-01-20T16:10:18+01:00</Time>
+    </Item>
+    <Item>
+      <Source>thing2.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>H:\3D basics\3D try\_3D_try\obj\x86\Debug\thing2_0.xml</Output>
+      <Time>2015-01-20T20:03:34+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PG.FBX</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>H:\3D basics\3D try\_3D_try\obj\x86\Debug\PG_0.xml</Output>
+      <Time>2015-01-21T19:27:14+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Big_Dragon.fbx</Source>
+      <Importer>FbxImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>H:\3D basics\3D try\_3D_try\obj\x86\Debug\Big_Dragon_0.xml</Output>
+      <Time>2015-01-21T19:34:02+01:00</Time>
+    </Item>
+    <Item>
+      <Source>H:\3D basics\3D try\_3D_try\obj\x86\Debug\FBX\BD17127E\Big_Dragon.fbm\T_Dragon_Body_Mask.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_Mask_0.xnb</Output>
+      <Time>2015-03-04T03:02:38+01:00</Time>
+    </Item>
+    <Item>
+      <Source>H:\3D basics\3D try\_3D_try\obj\x86\Debug\FBX\BD17127E\Big_Dragon.fbm\T_Dragon_Head_D.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Head_D_0.xnb</Output>
+      <Time>2015-03-04T03:02:36+01:00</Time>
+    </Item>
+    <Item>
+      <Source>H:\3D basics\3D try\_3D_try\obj\x86\Debug\FBX\BD17127E\Big_Dragon.fbm\T_Dragon_Body_D.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\T_Dragon_Body_D_0.xnb</Output>
+      <Time>2015-03-04T03:02:34+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{B062F36D-DB65-4214-AB14-34371BCE35E5}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>H:\3D basics\3D try\_3D_tryContent\</RootDirectory>
+      <LoggerRootDirectory>H:\3D basics\3D try\_3D_try\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\3D basics\3D try\_3D_try\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\3D basics\3D try\_3D_try\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-02T02:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-02T02:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-02T02:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-02T02:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-02T02:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-02T02:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-11-11T14:32:05.6997203+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
