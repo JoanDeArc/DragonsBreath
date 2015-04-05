@@ -81,6 +81,10 @@
   <ItemGroup>
     <Compile Include="Assets\Camera.cs" />
     <Compile Include="Assets\Constants.cs" />
+    <Compile Include="Assets\Managers\EnemyManager.cs" />
+    <Compile Include="Assets\GameObject.cs" />
+    <Compile Include="Assets\Managers\ModelManager.cs" />
+    <Compile Include="Entities\Aircraft.cs" />
     <Compile Include="Entities\Enemy.cs" />
     <Compile Include="Launcher.cs">
       <SubType>Form</SubType>

@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
 using Lidgren.Network;
+using Dragon_s_Breath.Assets;
 
 namespace Dragon_s_Breath
 {
@@ -18,10 +19,6 @@ namespace Dragon_s_Breath
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
-
-        Terrain terrain;
-        Effect effect;
-        Camera camera;
 
         Player player;
 
@@ -33,8 +30,6 @@ namespace Dragon_s_Breath
 
         protected override void Initialize()
         {
-            camera = new Camera(this.Window.ClientBounds, new Vector3(1000, 1100, 1000), new Vector3(0, 0, 200), Vector3.Up);
-            camera.Initialize();
 
             // *Nätverksanslutning - Joanna Gladh och Daniel Aili*
             // Sätter upp vad som behövs för att starta klienten
@@ -59,6 +54,7 @@ namespace Dragon_s_Breath
 
             System.Threading.Thread.Sleep(300);
             // *Nätverksanslutning />
+            EnemyManager.Initialize();
 
             base.Initialize();
         }
@@ -80,20 +76,9 @@ namespace Dragon_s_Breath
 
         protected override void LoadContent()
         {
-            Constants.model = Content.Load<Model>(@"Models\ball");
-            player = new Player(Constants.name, Constants.model);
-
-            terrain = new Terrain(
-                GraphicsDevice,
-                Content.Load<Texture2D>(@"Textures\hmap512"),
-                Content.Load<Texture2D>(@"Textures\grass"),
-                16f,
-                512,
-                512,
-                200f,
-                10f);
-
-            effect = Content.Load<Effect>(@"Effects/Terrain");
+            player = new Player(Constants.name, 0, Window.ClientBounds, new Vector3(1000f, 1100f, 1000f));
+            ModelManager.LoadContent(Content);
+            Terrain.LoadContent(GraphicsDevice, Content, 16f, 512, 512, 200f, 10f);
         }
 
         protected override void UnloadContent()
@@ -103,17 +88,10 @@ namespace Dragon_s_Breath
 
         protected override void Update(GameTime gameTime)
         {
-            float delta = gameTime.ElapsedGameTime.Milliseconds;
-
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 this.Exit();
 
-
-
-            camera.Update(gameTime);
-
-            player.Update();
-            Enemy.Update(delta);
+            player.Update(gameTime);
 
             Network.Update();
 
@@ -124,10 +102,8 @@ namespace Dragon_s_Breath
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            player.Draw(camera);
-            Enemy.Draw(camera);
+            player.Draw();
             
-            terrain.Draw(camera, effect);
             base.Draw(gameTime);
         }
     }

@@ -1,4 +1,5 @@
-﻿using Lidgren.Network;
+﻿using Dragon_s_Breath.Assets;
+using Lidgren.Network;
 using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
@@ -22,87 +23,90 @@ namespace Dragon_s_Breath
                 switch (incmsg.MessageType)
                 {
                     case NetIncomingMessageType.Data:
+                        switch (incmsg.ReadString())
                         {
-                            string headStringMessage = incmsg.ReadString();
+                            case "connect":
+                                AddPlayer();
+                                break;
 
-                            switch (headStringMessage)
-                            {
-                                case "connect":
-                                    {
-                                        string name = incmsg.ReadString();
-                                        int x = incmsg.ReadInt32();
-                                        int y = incmsg.ReadInt32();
-                                        int z = incmsg.ReadInt32();
+                            case "move":
+                                MovePlayer();
+                                break;
 
-                                        if (name != Constants.name)
-                                            Enemy.players.Add(new Player(name, Constants.model));
+                            case "disconnect":
+                                RemovePlayer();
+                                break;
 
-                                        for (int i1 = 0; i1 < Enemy.players.Count; i1++)
-                                        {
-                                            for (int i2 = /*0*/i1 + 1; i2 < Enemy.players.Count; i2++)
-                                            {
-                                                if (i1 != i2 && Enemy.players[i1].name.Equals(Enemy.players[i2].name))
-                                                {
-                                                    Enemy.players.RemoveAt(i1);
-                                                    i1--;
-                                                    break;
-                                                }
-                                            }
-                                        }
-                                    }
-                                    break;
-
-                                case "move":
-                                    {
-                                        try
-                                        {
-                                            string name = incmsg.ReadString();
-                                            int x = incmsg.ReadInt32();
-                                            int y = incmsg.ReadInt32();
-                                            int z = incmsg.ReadInt32();
-
-                                            for (int i = 0; i < Enemy.players.Count; i++)
-                                            {
-                                                if (Enemy.players[i].name.Equals(name) && Enemy.players[i].name != Constants.name)
-                                                {
-                                                    Enemy.players[i].remotePosition = new Vector3(x, y, z);
-                                                    //Enemy.players[i].SetWorldMatrix(Matrix.CreateTranslation(x, y, z));
-                                                    break;
-                                                }
-                                            }
-                                        }
-                                        catch
-                                        {
-                                            continue;
-                                        }
-                                    }
-                                    break;
-
-                                case "disconnect":
-                                    {
-                                        string name = incmsg.ReadString();
-
-                                        for (int i = 0; i < Enemy.players.Count; i++)
-                                        {
-                                            if (Enemy.players[i].name.Equals(name))
-                                            {
-                                                Enemy.players.RemoveAt(i);
-                                                i--;
-                                                break;
-                                            }
-                                        }
-                                    }
-                                    break;
-
-                                case "name taken":
-                                    {
-                                    }
-                                    break;
-                            }
+                            case "name taken":
+                                break;
                         }
                         break;
                 }
                 Client.Recycle(incmsg);
+            }
+        }
+
+        private static void AddPlayer()
+        {
+            string name = incmsg.ReadString();
+            int x = incmsg.ReadInt32();
+            int y = incmsg.ReadInt32();
+            int z = incmsg.ReadInt32();
+
+            if (name != Constants.name)
+                EnemyManager.Enemies.Add(new Enemy(name, 0, new Vector3(1000, 1100, 1000))); //Måste ändras så att korrekt modell och position skickas in
+
+            for (int i = 0; i < EnemyManager.Enemies.Count; i++)
+            {
+                for (int j = /*0*/i + 1; j < EnemyManager.Enemies.Count; j++)
+                {
+                    if (i != j && EnemyManager.Enemies[i].Name.Equals(EnemyManager.Enemies[j].Name))
+                    {
+                        EnemyManager.Enemies.RemoveAt(i);
+                        i--;
+                        break;
+                    }
+                }
+            }
+        }
+
+        private static void MovePlayer()
+        {
+            try
+            {
+                string name = incmsg.ReadString();
+                int x = incmsg.ReadInt32();
+                int y = incmsg.ReadInt32();
+                int z = incmsg.ReadInt32();
+
+                for (int i = 0; i < EnemyManager.Enemies.Count; i++)
+                {
+                    if (EnemyManager.Enemies[i].Name.Equals(name) && EnemyManager.Enemies[i].Name != Constants.name)
+                    {
+                        EnemyManager.Enemies[i].remotePosition = new Vector3(x, y, z);
+                        EnemyManager.Enemies[i].SetModelOrientation(EnemyManager.Enemies[i].ModelOrientation * Matrix.CreateTranslation(x, y, z));
+                        break;
+                    }
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+        private static void RemovePlayer()
+        {
+            string name = incmsg.ReadString();
+
+            for (int i = 0; i < EnemyManager.Enemies.Count; i++)
+            {
+                if (EnemyManager.Enemies[i].Name.Equals(name))
+                {
+                    EnemyManager.Enemies.RemoveAt(i);
+                    i--;
+                    break;
+                }
             }
         }
     }

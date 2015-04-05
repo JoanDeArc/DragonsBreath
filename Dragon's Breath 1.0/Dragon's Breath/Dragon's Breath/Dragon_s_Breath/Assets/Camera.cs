@@ -23,21 +23,19 @@ namespace Dragon_s_Breath
         #endregion
 
         #region Constructor
-        public Camera(Rectangle clientBounds, Vector3 pos, Vector3 target, Vector3 up)
+        public Camera(Rectangle clientBounds)
         {
             this.clientBounds = clientBounds;
-            // Build camera view matrix
-            CameraPosition = pos;
-            cameraDirection = target - pos;
-            cameraDirection.Normalize();
-            cameraUp = up;
-            CreateLookAt();
 
             Projection = Matrix.CreatePerspectiveFieldOfView(
                 MathHelper.PiOver4,
                 (float)clientBounds.Width / (float)clientBounds.Height,
                 1,
                 20000);
+
+            // Set mouse position and do initial get state
+            Mouse.SetPosition(clientBounds.Width / 2, clientBounds.Height / 2);
+            prevMouseState = Mouse.GetState();
         }
         #endregion
 
@@ -47,70 +45,21 @@ namespace Dragon_s_Breath
                 CameraPosition + cameraDirection,
                 cameraUp);
         }
-        public void Initialize()
+
+        private void SetCameraPosition(Matrix playerOrientation)
         {
-            // Set mouse position and do initial get state
-            Mouse.SetPosition(clientBounds.Width / 2, clientBounds.Height / 2);
-            prevMouseState = Mouse.GetState();
+            cameraUp = playerOrientation.Up;
+            CameraPosition = playerOrientation.Translation + playerOrientation.Backward * 10 + cameraUp * 2;
+            cameraDirection = playerOrientation.Forward;
+            CreateLookAt();
         }
-        public void Update(GameTime gameTime)
+
+        public void Update(GameTime gameTime, Matrix playerOrientation)
         {
-            if (Keyboard.GetState().IsKeyDown(Keys.Space))
-            {
-                CameraPosition += new Vector3(0, 10, 0);
-            }
-
-            // Move forward & backward
-            if (Keyboard.GetState().IsKeyDown(Keys.W))
-            {
-                CameraPosition += cameraDirection * speed;
-            }
-            if (Keyboard.GetState().IsKeyDown(Keys.S))
-            {
-                CameraPosition -= cameraDirection * speed;
-            }
-            // Move side-to-side
-            if (Keyboard.GetState().IsKeyDown(Keys.A))
-            {
-                CameraPosition += Vector3.Cross(cameraUp, cameraDirection) * speed;
-            }
-            if (Keyboard.GetState().IsKeyDown(Keys.D))
-            {
-                CameraPosition -= Vector3.Cross(cameraUp, cameraDirection) * speed;
-            }
-
-            // Yaw rotation
-            //cameraDirection = Vector3.Transform(cameraDirection,
-              //  Matrix.CreateFromAxisAngle(cameraUp,
-              //  -(MathHelper.PiOver4 / 100) * (Mouse.GetState().X - prevMouseState.X)));
-
-            // Roll rotation
-            if (Keyboard.GetState().IsKeyDown(Keys.E))
-            {
-                cameraUp = Vector3.Transform(cameraUp,
-                Matrix.CreateFromAxisAngle(cameraDirection,
-                MathHelper.PiOver4 / 45));
-            }
-            if (Keyboard.GetState().IsKeyDown(Keys.Q))
-            {
-                cameraUp = Vector3.Transform(cameraUp,
-                Matrix.CreateFromAxisAngle(cameraDirection,
-                -MathHelper.PiOver4 / 45));
-            }
-
-            // Pitch rotation
-            //cameraDirection = Vector3.Transform(cameraDirection,
-             //  Matrix.CreateFromAxisAngle(Vector3.Cross(cameraUp, cameraDirection),
-              //  (MathHelper.PiOver4 / 100) * (Mouse.GetState().Y - prevMouseState.Y)));
-
-            //cameraUp = Vector3.Transform(cameraUp,
-            //    Matrix.CreateFromAxisAngle(Vector3.Cross(cameraUp, cameraDirection),
-            //    (MathHelper.PiOver4 / 100) * (Mouse.GetState().Y - prevMouseState.Y)));
+            SetCameraPosition(playerOrientation);
 
             // Reset prevMouseState
             prevMouseState = Mouse.GetState();
-            // Apply changes to view matrix
-            CreateLookAt();
         }
     }
 }

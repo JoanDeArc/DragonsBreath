@@ -1,4 +1,6 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Dragon_s_Breath.Assets;
+using Dragon_s_Breath.Entities;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -7,24 +9,49 @@ using System.Text;
 
 namespace Dragon_s_Breath
 {
-    class Enemy
+    /// <summary>
+    /// Denna klass innehåller logik avsedd för att tolka 
+    /// och rita ut andra spelares handlingar.
+    /// </summary>
+    class Enemy : Aircraft
     {
         static double threshold = 1;
         static float interpolationConstant = 0.01f;
-        public static List<Player> players = new List<Player>();
+        public List<Player> players = new List<Player>();
 
-        public static void Update(float delta)
+        //Temp
+        public Vector3 remotePosition;
+
+        //Temp
+        public void SetModelOrientation(Matrix orientation)
         {
+            modelOrientation = orientation;
+        }
+
+        public Enemy(String name, int model, Vector3 position) :
+            base(name, model, position)
+        {
+
+        }
+
+        /// <summary>
+        /// Denna metod används för att få motspelarnas plan 
+        /// att reagera som de gör för motspelaren i fråga.
+        /// </summary>
+        /// <param name="gameTime"></param>
+        public override void Update(GameTime gameTime)
+        {
+            float delta = gameTime.ElapsedGameTime.Milliseconds;
             foreach (Player p in players)
             {
-                Vector3 v3r = p.remotePosition;
-                Vector3 v3t = p.worldMatrix.Translation;
+                Vector3 v3r = remotePosition;
+                Vector3 v3t = modelOrientation.Translation;
 
                 double difference = Math.Abs(Math.Sqrt(v3r.X * v3r.X + v3r.Y * v3r.Y + v3r.Z * v3r.Z) - Math.Sqrt(v3t.X * v3t.X + v3t.Y * v3t.Y + v3t.Z * v3t.Z));
 
                 if (difference < threshold)
                 {
-                    p.worldMatrix.Translation = v3r;
+                    modelOrientation.Translation = v3r;
                 }
                 else
                 {
@@ -33,27 +60,9 @@ namespace Dragon_s_Breath
                     float differenceY = v3r.Y - v3t.Y;
                     float differenceZ = v3r.Z - v3t.Z;
 
-                    p.worldMatrix.Translation += new Vector3(differenceX * delta * interpolationConstant, differenceY * delta * interpolationConstant, differenceZ * delta * interpolationConstant);
+                    modelOrientation.Translation += new Vector3(differenceX * delta * interpolationConstant, differenceY * delta * interpolationConstant, differenceZ * delta * interpolationConstant);
                 }
 
-            }
-        }
-
-        public static void Draw(Camera camera)
-        {
-            foreach (Player p in players)
-            {
-                foreach (ModelMesh mesh in p.model.Meshes)
-                {
-                    foreach (BasicEffect shader in mesh.Effects)
-                    {
-                        shader.World = p.GetWorldMatrix();
-                        shader.View = camera.View;
-                        shader.Projection = camera.Projection;
-                        shader.DirectionalLight0.DiffuseColor = Color.White.ToVector3();
-                    }
-                    mesh.Draw();
-                }
             }
         }
     }

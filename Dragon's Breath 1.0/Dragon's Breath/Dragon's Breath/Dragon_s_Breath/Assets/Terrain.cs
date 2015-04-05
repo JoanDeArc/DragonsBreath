@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
@@ -7,35 +8,57 @@ using System.Text;
 
 namespace Dragon_s_Breath
 {
-    class Terrain
+    /// <summary>
+    /// Denna klass skapar och ritar ut terrängen.
+    /// </summary>
+    static class Terrain
     {
         #region Fields
-        private VertexBuffer vertexBuffer;
-        private IndexBuffer indexBuffer;
-        private GraphicsDevice device;
-        private Texture2D terrainTexture;
-        private float textureScale, terrainSizeMultiplier;
-        private float[,] heights;
+        static private VertexBuffer vertexBuffer;
+        static private IndexBuffer indexBuffer;
+        static private GraphicsDevice device;
+        static private Texture2D terrainTexture;
+        static private Effect effect;
+        static private float textureScale, terrainSizeMultiplier;
+        static private float[,] heights;
         #endregion
 
-        #region Constructor
-        public Terrain(GraphicsDevice graphicsDevice, Texture2D heightMap, Texture2D terrainTexture,
-            float textureScale, int terrainWidth, int terrainHeight, float heightScale,
-            float terrainSizeMultiplier)
+        #region LoadContent
+        /// <summary>
+        /// Denna metod laddar in height map och texturer till terräng och 
+        /// anropar de metoder som skapar terrängen.
+        /// </summary>
+        /// <param name="graphicsDevice">Spelets Graphic Device från Game1.</param>
+        /// <param name="content">Spelets Content Manager från Game1.</param>
+        /// <param name="texScale"></param>
+        /// <param name="terrainWidth">Bredden utav height mappen.</param>
+        /// <param name="terrainHeight">Höjden utav height mappen.</param>
+        /// <param name="heightScale">Skalan i vilken terrängens höjd kan röra sig inom.</param>
+        /// <param name="terrainSizeMultp"></param>
+        public static void LoadContent(GraphicsDevice graphicsDevice, ContentManager content, float texScale, int terrainWidth, int terrainHeight, float heightScale, float terrainSizeMultp)
         {
             device = graphicsDevice;
-            this.terrainTexture = terrainTexture;
-            this.textureScale = textureScale;
-            this.terrainSizeMultiplier = terrainSizeMultiplier;
+            terrainTexture = content.Load<Texture2D>(@"Textures\grass");
+            textureScale = texScale;
+            terrainSizeMultiplier = terrainSizeMultp;
 
-            ReadHeightMap(heightMap, terrainWidth, terrainHeight, heightScale);
+            effect = content.Load<Effect>(@"Effects/Terrain");
+
+            ReadHeightMap(content.Load<Texture2D>(@"Textures\hmap512"), terrainWidth, terrainHeight, heightScale);
             BuildVertexBuffer(terrainWidth, terrainHeight, heightScale);
             BuildIndexBuffer(terrainWidth, terrainHeight);
         }
         #endregion
 
         #region Height Map
-        private void ReadHeightMap(Texture2D heightMap, int terrainWidth, int terrainHeight, float heightScale)
+        /// <summary>
+        /// Denna metod avläser height mappen och lägger höjdvärdena från denna i en array.
+        /// </summary>
+        /// <param name="heightMap">Height mappen som ska avläsas.</param>
+        /// <param name="terrainWidth">Bredden utav height mappen.</param>
+        /// <param name="terrainHeight">Höjden utav height mappen.</param>
+        /// <param name="heightScale">Skalan i vilken terrängens höjd kan röra sig inom.</param>
+        private static void ReadHeightMap(Texture2D heightMap, int terrainWidth, int terrainHeight, float heightScale)
         {
             float min = float.MaxValue;
             float max = float.MinValue;
@@ -61,7 +84,13 @@ namespace Dragon_s_Breath
         #endregion
 
         #region Vertex Buffer
-        private void BuildVertexBuffer(int width, int height, float heightScale)
+        /// <summary>
+        /// Metoden skapar terrängen.
+        /// </summary>
+        /// <param name="width">Antalet vertex längs terrängens ena sida.</param>
+        /// <param name="height">Antalet vertex längs terrängens andra sida.</param>
+        /// <param name="heightScale"></param>
+        private static void BuildVertexBuffer(int width, int height, float heightScale)
         {
             VertexPositionNormalTexture[] vertices =
             new VertexPositionNormalTexture[width * height];
@@ -80,7 +109,12 @@ namespace Dragon_s_Breath
         #endregion
 
         #region Index Buffer
-        private void BuildIndexBuffer(int width, int height)
+        /// <summary>
+        /// Metoden skapar ett index för kvadrater i terrängen.
+        /// </summary>
+        /// <param name="width">Antalet kvadrater längs terrängens ena sida.</param>
+        /// <param name="height">Antalet kvadrater längs terrängens andra sida.</param>
+        private static void BuildIndexBuffer(int width, int height)
         {
             int indexCount = (width - 1) * (height - 1) * 6;
             int[] indices = new int[indexCount];
@@ -107,7 +141,11 @@ namespace Dragon_s_Breath
         #endregion
 
         #region Draw
-        public void Draw(Camera camera, Effect effect)
+        /// <summary>
+        /// Metoden ritar ut terrängen.
+        /// </summary>
+        /// <param name="camera">Spelarens kamera.</param>
+        public static void Draw(Camera camera)
         {
             effect.CurrentTechnique = effect.Techniques["Technique1"];
             effect.Parameters["terrainTexture1"].SetValue(terrainTexture);

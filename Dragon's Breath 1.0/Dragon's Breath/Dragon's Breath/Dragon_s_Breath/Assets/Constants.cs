@@ -11,6 +11,5 @@ namespace Dragon_s_Breath
         public static bool playing = false;
         public static String ip, name;
         public static int port;
-        public static Model model;
     }
 }
