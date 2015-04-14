@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon_s_Breath", "Dragon's Breath\Dragon_s_Breath\Dragon_s_Breath.csproj", "{F66359AE-F314-4B18-8A4B-47823E20C52C}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Dragon_s_BreathContent", "Dragon's Breath\Dragon_s_BreathContent\Dragon_s_BreathContent.contentproj", "{D34A5BF6-7BD0-4137-BCF4-03D1D62252DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F66359AE-F314-4B18-8A4B-47823E20C52C}.Debug|x86.ActiveCfg = Debug|x86
+		{F66359AE-F314-4B18-8A4B-47823E20C52C}.Debug|x86.Build.0 = Debug|x86
+		{F66359AE-F314-4B18-8A4B-47823E20C52C}.Release|x86.ActiveCfg = Release|x86
+		{F66359AE-F314-4B18-8A4B-47823E20C52C}.Release|x86.Build.0 = Release|x86
+		{D34A5BF6-7BD0-4137-BCF4-03D1D62252DF}.Debug|x86.ActiveCfg = Debug|x86
+		{D34A5BF6-7BD0-4137-BCF4-03D1D62252DF}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

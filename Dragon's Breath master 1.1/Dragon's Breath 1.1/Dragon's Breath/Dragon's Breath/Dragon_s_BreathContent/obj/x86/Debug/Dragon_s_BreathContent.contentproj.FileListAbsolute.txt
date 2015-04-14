@@ -1,0 +1,3 @@
+c:\users\joanna\documents\visual studio 2013\Projects\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\obj\x86\Debug\Dragon_s_BreathContent.contentprojResolveAssemblyReference.cache
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\obj\x86\Debug\Dragon_s_BreathContent.contentprojResolveAssemblyReference.cache
+C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\obj\x86\Debug\Dragon_s_BreathContent.contentprojResolveAssemblyReference.cache

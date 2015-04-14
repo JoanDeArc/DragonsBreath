@@ -1,0 +1,16 @@
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\bin\x86\Debug\DBclient.exe
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\bin\x86\Debug\DBclient.pdb
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.csprojResolveAssemblyReference.cache
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.exe
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.pdb
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.Form1.resources
+c:\users\joanna\documents\visual studio 2013\Projects\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.csproj.GenerateResource.Cache
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\bin\x86\Debug\DBclient.exe
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\bin\x86\Debug\DBclient.pdb
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.csprojResolveAssemblyReference.cache
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.Form1.resources
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.csproj.GenerateResource.Cache
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.exe
+C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBclient\DBclient\DBclient\obj\x86\Debug\DBclient.pdb
