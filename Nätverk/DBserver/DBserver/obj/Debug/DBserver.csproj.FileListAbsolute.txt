@@ -52,3 +52,6 @@ C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBserver\DBserver\obj\Debug\DBse
 C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBserver\DBserver\obj\Debug\DBserver.csproj.GenerateResource.Cache
 C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBserver\DBserver\obj\Debug\DBserver.exe.manifest
 C:\Users\Joanna\Desktop\Dragons breath\Nätverk\DBserver\DBserver\obj\Debug\DBserver.application
+E:\DragonsBreath\DragonsBreath\Nätverk\DBserver\DBserver\bin\Debug\DBserver.exe.config
+E:\DragonsBreath\DragonsBreath\Nätverk\DBserver\DBserver\obj\Debug\DBserver.exe
+E:\DragonsBreath\DragonsBreath\Nätverk\DBserver\DBserver\obj\Debug\DBserver.pdb

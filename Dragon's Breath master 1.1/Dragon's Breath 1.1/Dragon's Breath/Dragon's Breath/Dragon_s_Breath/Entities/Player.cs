@@ -39,6 +39,20 @@ namespace Dragon_s_Breath
         {
             ActualKeyState = Keyboard.GetState();
 
+<<<<<<< HEAD
+            if (ActualKeyState.IsKeyDown(Keys.W))
+                Pitch(MathHelper.ToRadians(-1));
+            if (ActualKeyState.IsKeyDown(Keys.S))
+                Pitch(MathHelper.ToRadians(1));
+            if (ActualKeyState.IsKeyDown(Keys.A))
+                Yaw(MathHelper.ToRadians(1));
+            if (ActualKeyState.IsKeyDown(Keys.D))
+                Yaw(MathHelper.ToRadians(-1));
+            if (ActualKeyState.IsKeyDown(Keys.Q))
+                Roll(MathHelper.ToRadians(-1));
+            if (ActualKeyState.IsKeyDown(Keys.E))
+                Roll(MathHelper.ToRadians(1));
+=======
             if (ActualKeyState.IsKeyDown(Keys.Up))
                 Pitch(MathHelper.ToRadians(1));
             if (ActualKeyState.IsKeyDown(Keys.Down))
@@ -47,6 +61,7 @@ namespace Dragon_s_Breath
                 Yaw(MathHelper.ToRadians(-1));
             if (ActualKeyState.IsKeyDown(Keys.Right))
                 Yaw(MathHelper.ToRadians(1));
+>>>>>>> origin/master
             if (ActualKeyState.IsKeyDown(Keys.Z))
                 if (++velocity > maxSpeed)
                     velocity = maxSpeed;
@@ -55,10 +70,57 @@ namespace Dragon_s_Breath
                     velocity = minSpeed;
 
             base.Update(gameTime);
+<<<<<<< HEAD
+            SendDataToServer();
+            camera_.Update(gameTime, worldMatrix);
+        }
+
+        /// <summary>
+        /// Denna metod roterar planet längs sin egen axel åt antingen höger eller vänster.
+        /// </summary>
+        /// <param name="radians">Hur många radianer planet ska roteras.</param>
+        private void Yaw(float radians)
+        {
+            worldMatrix *= Matrix.CreateTranslation(-worldMatrix.Translation) * Matrix.CreateFromAxisAngle(worldMatrix.Up, radians) * Matrix.CreateTranslation(worldMatrix.Translation);
+        }
+
+        /// <summary>
+        /// Denna metod roterar planet längs sin egel axel antingen uppåt eller nedåt.
+        /// </summary>
+        /// <param name="radians">Hur många radianer planet ska roteras.</param>
+        private void Pitch(float radians)
+        {
+            worldMatrix *= Matrix.CreateTranslation(-worldMatrix.Translation) * Matrix.CreateFromAxisAngle(worldMatrix.Right, radians) * Matrix.CreateTranslation(worldMatrix.Translation);
+        }
+
+        /// <summary>
+        /// Denna metod roterar planet längs sin egel axel antingen så att planet rullar.
+        /// </summary>
+        /// <param name="radians">Hur många radianer planet ska roteras.</param>
+        private void Roll(float radians)
+        {
+            worldMatrix *= Matrix.CreateTranslation(-worldMatrix.Translation) * Matrix.CreateFromAxisAngle(worldMatrix.Forward, radians) * Matrix.CreateTranslation(worldMatrix.Translation);
+        }
+
+        private void SendDataToServer()
+        {
+=======
+>>>>>>> origin/master
             Network.outmsg = Network.Client.CreateMessage();
             Network.outmsg.Write("move");
             Network.outmsg.Write(Constants.name);
 
+<<<<<<< HEAD
+            Network.outmsg.Write((int)worldMatrix.Translation.X);
+            Network.outmsg.Write((int)worldMatrix.Translation.Y);
+            Network.outmsg.Write((int)worldMatrix.Translation.Z);
+
+            Network.outmsg.Write(worldMatrix.Forward.X);
+            Network.outmsg.Write(worldMatrix.Forward.Y);
+            Network.outmsg.Write(worldMatrix.Forward.Z);
+
+            Network.Client.SendMessage(Network.outmsg, NetDeliveryMethod.Unreliable);
+=======
             Quaternion rotation;
             Vector3 scale, position;
             worldMatrix.Decompose(out scale, out rotation, out position);
@@ -75,6 +137,7 @@ namespace Dragon_s_Breath
 
             Network.Client.SendMessage(Network.outmsg, NetDeliveryMethod.Unreliable);
             camera_.Update(gameTime, worldMatrix);
+>>>>>>> origin/master
         }
 
         /// <summary>

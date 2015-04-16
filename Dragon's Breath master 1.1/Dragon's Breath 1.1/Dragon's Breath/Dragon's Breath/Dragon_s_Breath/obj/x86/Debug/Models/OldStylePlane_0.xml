@@ -3,7 +3,11 @@
   <Asset Type="Graphics:NodeContent">
     <Name>RootNode</Name>
     <Identity>
+<<<<<<< HEAD
+      <SourceFilename>C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+=======
       <SourceFilename>C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+>>>>>>> origin/master
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
@@ -104,7 +108,11 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Material.005</Name>
       <Identity>
+<<<<<<< HEAD
+        <SourceFilename>C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+=======
         <SourceFilename>C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+>>>>>>> origin/master
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -123,7 +131,11 @@
     <Resource ID="#Resource2" Type="Graphics:BasicMaterialContent">
       <Name>Material.002</Name>
       <Identity>
+<<<<<<< HEAD
+        <SourceFilename>C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+=======
         <SourceFilename>C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+>>>>>>> origin/master
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -142,7 +154,11 @@
     <Resource ID="#Resource3" Type="Graphics:BasicMaterialContent">
       <Name>Material.001</Name>
       <Identity>
+<<<<<<< HEAD
+        <SourceFilename>C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+=======
         <SourceFilename>C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+>>>>>>> origin/master
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -164,7 +180,11 @@
     <Resource ID="#Resource4" Type="Graphics:BasicMaterialContent">
       <Name>Material.003</Name>
       <Identity>
+<<<<<<< HEAD
+        <SourceFilename>C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+=======
         <SourceFilename>C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+>>>>>>> origin/master
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>
@@ -183,7 +203,11 @@
     <Resource ID="#Resource5" Type="Graphics:BasicMaterialContent">
       <Name>Material</Name>
       <Identity>
+<<<<<<< HEAD
+        <SourceFilename>C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+=======
         <SourceFilename>C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_BreathContent\Models\OldStylePlane.fbx</SourceFilename>
+>>>>>>> origin/master
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

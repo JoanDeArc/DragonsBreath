@@ -39,6 +39,8 @@ namespace Dragon_s_Breath.Entities
         }
 
         /// <summary>
+<<<<<<< HEAD
+=======
         /// Denna metod roterar planet längs sin egen axel åt antingen höger eller vänster.
         /// </summary>
         /// <param name="radians">Hur många radianer planet ska roteras.</param>
@@ -57,6 +59,7 @@ namespace Dragon_s_Breath.Entities
         }
 
         /// <summary>
+>>>>>>> origin/master
         /// Denna metod kallas när planet ska ritas ut.
         /// </summary>
         /// <param name="camera">Spelarens kamera.</param>

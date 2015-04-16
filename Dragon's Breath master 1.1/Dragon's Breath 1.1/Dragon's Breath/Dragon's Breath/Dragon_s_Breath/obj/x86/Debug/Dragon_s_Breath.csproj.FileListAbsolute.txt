@@ -62,3 +62,31 @@ C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath
 C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.csproj.GenerateResource.Cache
 C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.exe
 C:\Users\Ciniik\Desktop\DragonsBreath-master\Dragon's Breath 1.0\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.pdb
+<<<<<<< HEAD
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Effects\Terrain.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\grass.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\hmap512.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\rocks.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Textures\rocktex.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_D.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_engine_D.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_rods.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_rotor_D.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_wings_D.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\ball.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_rotor_D_0.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_engine_D_0.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_D_0.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_rods_0.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Content\Models\OldStylePlane_wings_D_0.xnb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Dragon_s_Breath.exe
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\bin\x86\Debug\Dragon_s_Breath.pdb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.csprojResolveAssemblyReference.cache
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.Launcher.resources
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.csproj.GenerateResource.Cache
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.exe
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Dragon's Breath 1.1\Dragon's Breath\Dragon's Breath\Dragon_s_Breath\obj\x86\Debug\Dragon_s_Breath.pdb
+=======
+>>>>>>> origin/master

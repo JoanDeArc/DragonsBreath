@@ -49,7 +49,11 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
+        <dsig:DigestValue>74UY7k6JlZpGn8GmBOGO7NHo8yLY+tdYl0dsQv+JUfw=</dsig:DigestValue>
+=======
         <dsig:DigestValue>AHBFkKqPm7uU574/XXntEeJqx0+IePT+loy2MGkliq0=</dsig:DigestValue>
+>>>>>>> origin/master
       </hash>
     </dependentAssembly>
   </dependency>
@@ -77,13 +81,21 @@
       </hash>
     </dependentAssembly>
   </dependency>
+<<<<<<< HEAD
+  <file name="DBserver.exe.config" size="158">
+=======
   <file name="DBserver.exe.config" size="161">
+>>>>>>> origin/master
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+<<<<<<< HEAD
+      <dsig:DigestValue>0/gnn6POFEgYA0gzsc3DIvRej6EZCh1ya+fx1KHzzH4=</dsig:DigestValue>
+=======
       <dsig:DigestValue>+K0Xw31ERSGzkFzL116my249J2OxbrVrLhqkJ0Fz5hQ=</dsig:DigestValue>
+>>>>>>> origin/master
     </hash>
   </file>
 </asmv1:assembly>

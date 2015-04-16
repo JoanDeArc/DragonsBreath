@@ -139,11 +139,21 @@ namespace DBserver
                                             int x = incmsg.ReadInt32();
                                             int y = incmsg.ReadInt32();
                                             int z = incmsg.ReadInt32();
+<<<<<<< HEAD
+                                            float fx = incmsg.ReadFloat();
+                                            float fy = incmsg.ReadFloat();
+                                            float fz = incmsg.ReadFloat();
+=======
+>>>>>>> origin/master
                                             for (int i = 0; i < Player.players.Count; i++)
                                             {
                                                 if (Player.players[i].name.Equals(name))
                                                 {
                                                     Player.players[i].worldMatrix = Matrix.CreateTranslation(x, y, z);
+<<<<<<< HEAD
+                                                    Player.players[i].worldMatrix.Forward = new Vector3(fx, fy, fz);
+=======
+>>>>>>> origin/master
                                                     Player.players[i].timeOut = 0; 
                                                     break;
                                                 }
@@ -226,6 +236,13 @@ namespace DBserver
                     Network.outmsg.Write((int)Player.players[i].worldMatrix.Translation.Y);
                     Network.outmsg.Write((int)Player.players[i].worldMatrix.Translation.Z);
 
+<<<<<<< HEAD
+                    Network.outmsg.Write(Player.players[i].worldMatrix.Forward.X);
+                    Network.outmsg.Write(Player.players[i].worldMatrix.Forward.Y);
+                    Network.outmsg.Write(Player.players[i].worldMatrix.Forward.Z);
+
+=======
+>>>>>>> origin/master
                     Network.Server.SendMessage(Network.outmsg, Network.Server.Connections, NetDeliveryMethod.Unreliable, 0);
 
                     if (players[i].timeOut > 1000) //Om timeout når 1000 så diconnectas spelaren, AFK

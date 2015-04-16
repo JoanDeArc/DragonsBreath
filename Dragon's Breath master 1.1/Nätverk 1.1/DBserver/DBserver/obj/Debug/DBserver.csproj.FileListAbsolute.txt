@@ -68,3 +68,22 @@ H:\DragonsBreath-master\Nätverk\DBserver\DBserver\obj\Debug\DBserver.exe.manife
 H:\DragonsBreath-master\Nätverk\DBserver\DBserver\obj\Debug\DBserver.application
 H:\DragonsBreath-master\Nätverk\DBserver\DBserver\obj\Debug\DBserver.exe
 H:\DragonsBreath-master\Nätverk\DBserver\DBserver\obj\Debug\DBserver.pdb
+<<<<<<< HEAD
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\bin\Debug\DBserver.exe.config
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.exe
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.pdb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\bin\Debug\DBserver.exe.manifest
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\bin\Debug\DBserver.application
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\bin\Debug\DBserver.exe
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\bin\Debug\DBserver.pdb
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.csprojResolveAssemblyReference.cache
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.Form1.resources
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.Form2.resources
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.Properties.Resources.resources
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.csproj.GenerateResource.Cache
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.exe.manifest
+C:\Users\david_000\Documents\GitHub\DragonsBreath\Dragon's Breath master 1.1\Nätverk 1.1\DBserver\DBserver\obj\Debug\DBserver.application
+=======
+>>>>>>> origin/master
